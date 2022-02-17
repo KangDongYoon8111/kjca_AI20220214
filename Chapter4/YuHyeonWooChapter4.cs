@@ -4,15 +4,15 @@ using UnityEngine;
 
 public class YuHyeonWooChapter4 : MonoBehaviour
 {
-//    1. i++¿Í ++iÀÇ Â÷ÀÌÁ¡Àº ¹«¾ùÀÎ°¡¿ä?  i¸¦ Ç¥½ÃÇÏ°í ±× ÈÄ¿¡ 1ÀÌ Áõ°¡(i++¸¦ Ãâ·Â½Ã °¡ Ãâ·ÂµÊ)/ 1À» i¿¡ + ¿¬»ê 
-//    2. °¢ Ãâ·Â¹®ÀÇ °ªÀ» ÀûÀ¸¼¼¿ä
+//    1. i++ì™€ ++iì˜ ì°¨ì´ì ì€ ë¬´ì—‡ì¸ê°€ìš”?  ië¥¼ í‘œì‹œí•˜ê³  ê·¸ í›„ì— 1ì´ ì¦ê°€(i++ë¥¼ ì¶œë ¥ì‹œ ê°€ ì¶œë ¥ë¨)/ 1ì„ iì— + ì—°ì‚° 
+//    2. ê° ì¶œë ¥ë¬¸ì˜ ê°’ì„ ì ìœ¼ì„¸ìš”
       //  int i = 1;
-      //  Debug.Log(i = i + 1); ´ä :2
-      //  Debug.Log(i++); ´ä : 2
-      //  Debug.Log(++i); ´ä :4
-      //  Debug.Log(i += 1); ´ä :5
-      //3. ´ÙÀ½ ÄÚµå¿¡¼­ b´Â ¾î¶² °ªÀ» °¡Áú±î¿ä?
+      //  Debug.Log(i = i + 1); ë‹µ :2
+      //  Debug.Log(i++); ë‹µ : 2
+      //  Debug.Log(++i); ë‹µ :4
+      //  Debug.Log(i += 1); ë‹µ :5
+      //3. ë‹¤ìŒ ì½”ë“œì—ì„œ bëŠ” ì–´ë–¤ ê°’ì„ ê°€ì§ˆê¹Œìš”?
     
       //  int a = 10;
-      //  string b = a == 0 ? "°¡³ª´Ù" : "ABC"; ´ä ABC
+      //  string b = a == 0 ? "ê°€ë‚˜ë‹¤" : "ABC"; ë‹µ "ABC"
 }
