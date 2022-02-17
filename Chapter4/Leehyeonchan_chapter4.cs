@@ -7,34 +7,35 @@ public class Leehyeonchan_chapter4 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        // 1. i ++¿Í ++iÀÇ Â÷ÀÌÁ¡Àº ¹«¾ùÀÎ°¡¿ä?
-        // ÀüÀ§Áõ°¡ÀÎ ++i´Â iÀÇ °ªÀ» 1 Áõ°¡ ½ÃÅ²ÈÄ¿¡ Áõ°¡µÈ °ªÀ» return ÇÕ´Ï´Ù
-        // ÈÄÀ§Áõ°¡ÀÎ i++´Â iÀÇ °ªÀ» 1 Áõ°¡ ½ÃÅ² ÈÄ¿¡ , Áõ°¡µÇ±â ÀüÀÇ °ªÀ» return ÇÕ´Ï´Ù
+        // 1. i ++ì™€ ++iì˜ ì°¨ì´ì ì€ ë¬´ì—‡ì¸ê°€ìš”?
+        // ì „ìœ„ì¦ê°€ì¸ ++iëŠ” iì˜ ê°’ì„ 1 ì¦ê°€ ì‹œí‚¨í›„ì— ì¦ê°€ëœ ê°’ì„ return í•©ë‹ˆë‹¤
+        // í›„ìœ„ì¦ê°€ì¸ i++ëŠ” iì˜ ê°’ì„ 1 ì¦ê°€ ì‹œí‚¨ í›„ì— , ì¦ê°€ë˜ê¸° ì „ì˜ ê°’ì„ return í•©ë‹ˆë‹¤
 
-        //  2. Ãâ·Â¹® °ª ÀÛ¼ºÇÏ¼¼¿ä
+        //  2. ì¶œë ¥ë¬¸ ê°’ ìž‘ì„±í•˜ì„¸ìš”
         int i = 1;
         Debug.Log(i = i + 1); 
         Debug.Log(i++); 
         Debug.Log(++i); 
         Debug.Log(i += 1);
 
-        // ´äÀº °¢°¢
-        //  Debug.Log(i = i + 1);  ´ä : 2
-        //  Debug.Log(i++); ´ä : 2
-        //  Debug.Log(++i); ´ä :4
-        //  Debug.Log(i += 1); ´ä: 5
+        // ë‹µì€ ê°ê°
+        //  Debug.Log(i = i + 1);  ë‹µ : 2
+        //  Debug.Log(i++); ë‹µ : 2
+        //  Debug.Log(++i); ë‹µ :4
+        //  Debug.Log(i += 1); ë‹µ: 5
 
-        //3. ´ÙÀ½ ÄÚµå¿¡¼­ B ´Â ¾î¶² °ªÀ» °¡Áú±î¿ä>?
+        //3. ë‹¤ìŒ ì½”ë“œì—ì„œ B ëŠ” ì–´ë–¤ ê°’ì„ ê°€ì§ˆê¹Œìš”>?
 
         // int a = 10;
-        // string b = a == 0 ? "°¡³ª´Ù" : "ABC";
+        // string b = a == 0 ? "ê°€ë‚˜ë‹¤" : "ABC";
 
         int a = 10;
-        string b = a == 0 ? "°¡³ª´Ù" : "ABC";
+        string b = a == 0 ? "ê°€ë‚˜ë‹¤" : "ABC";
 
         Debug.Log(b);
 
-        // ´ä : ÇÑ±ÛÀÎÁö ¿µ¾îÀÎÁö¸¦ ¾Ë·ÁÁÖ´Â°Í!
+        // ë‹µ : í•œê¸€ì¸ì§€ ì˜ì–´ì¸ì§€ë¥¼ ì•Œë ¤ì£¼ëŠ”ê²ƒ!
+        // ë³€ìˆ˜ bê°€ ì˜ë¯¸í•˜ëŠ”ê²Œ ë¬´ì—‡ì¸ì§€ ë¬¼ì–´ë³´ëŠ”ì¤„ ì•Œê³  ë™ë¬¸ì„œë‹µ í•´ë²„ë ¸ë„¤ìš© ã…œã…œ ì¶œë ¥ì€ ABCê°€ 
 
 
 
