@@ -14,11 +14,11 @@ public class youngjunChapter3 : MonoBehaviour
         int c = int.Parse(a);
         int d = int.Parse(b);
 
-        int e = c*d 
+        int e = c*d ; 
 
-        Debug.Log($"»ç°¢ÇüÀÇ ³Êºñ´Â{c} ÀÔ´Ï´Ù");
-        Debug.Log($"»ç°¢ÇüÀÇ ³ôÀÌ´Â{d} ÀÔ´Ï´Ù");
-        Debug.Log($"»ç°¢ÇüÀÇ ³ĞÀÌ´Â{e} ÀÔ´Ï´Ù");
+        Debug.Log($"ì‚¬ê°í˜•ì˜ ë„ˆë¹„ëŠ”{c} ì…ë‹ˆë‹¤");
+        Debug.Log($"ì‚¬ê°í˜•ì˜ ë†’ì´ëŠ”{d} ì…ë‹ˆë‹¤");
+        Debug.Log($"ì‚¬ê°í˜•ì˜ ë„“ì´ëŠ”{e} ì…ë‹ˆë‹¤");
 
 
 
