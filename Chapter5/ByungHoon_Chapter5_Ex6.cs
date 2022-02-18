@@ -14,23 +14,23 @@ public class Chapter5_Ex6 : MonoBehaviour
         switch (symbol)
         {
             case "+":
-                Debug.Log(($"ют╥бго╫е {A}+{B} юг ╟╙ю╨ {A+B}ют╢о╢ы"));
+                Debug.Log(($"Л·┘К═╔М∙≤Л▀═ {A}+{B} Л²≤ Й╟▓Л²─ {A+B}Л·┘К▀┬К▀╓"));
                 break;
             case "-":
-                Debug.Log(($"ют╥бго╫е {A}-{B} юг ╟╙ю╨ {A - B}ют╢о╢ы"));
+                Debug.Log(($"Л·┘К═╔М∙≤Л▀═ {A}-{B} Л²≤ Й╟▓Л²─ {A - B}Л·┘К▀┬К▀╓"));
                 break;
             case "*":
-                Debug.Log(($"ют╥бго╫е {A}*{B} юг ╟╙ю╨ {A * B}ют╢о╢ы"));
+                Debug.Log(($"Л·┘К═╔М∙≤Л▀═ {A}*{B} Л²≤ Й╟▓Л²─ {A * B}Л·┘К▀┬К▀╓"));
                 break;
             case "/":
-                Debug.Log(($"ют╥бго╫е {A}/{B} юг ╟╙ю╨ {A / B}ют╢о╢ы"));
+                Debug.Log(($"Л·┘К═╔М∙≤Л▀═ {A}/{B} Л²≤ Й╟▓Л²─ {A / B}Л·┘К▀┬К▀╓"));
                 break;
             case "%":
-                Debug.Log(($"ют╥бго╫е {A}%{B} юг ╟╙ю╨ {A % B}ют╢о╢ы"));
+                Debug.Log(($"Л·┘К═╔М∙≤Л▀═ {A}%{B} Л²≤ Й╟▓Л²─ {A % B}Л·┘К▀┬К▀╓"));
                 break;
 
             default:
-                Debug.Log($"{symbol}╢б(ю╨) ╠Бхё╟║ ╬ф╢у╢о╢ы.");
+                Debug.Log($"{symbol}К┼■(Л²─) Й╦╟М≤╦Й╟─ Л∙└К▀≥К▀┬К▀╓.");
                 break;
 
         }
