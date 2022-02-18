@@ -17,12 +17,12 @@ public class KiMGyuRI_Chapter5_ex6 : MonoBehaviour
         int input2 = int.Parse(userInput2);
         int value = 0;
 
-        
-        switch(userInput3)
+
+        switch (userInput3)
         {
             case "+":
                 value = input1 + input2;
-               
+
                 break;
 
             case "-":
@@ -40,16 +40,16 @@ public class KiMGyuRI_Chapter5_ex6 : MonoBehaviour
             case "%":
                 value = input1 % input2;
                 break;
-
+        }
                     Debug.Log($"입력하신{input1}{userInput3}{input2}의 값은 {value}입니다");
-
+                
         }
 
 
 
 
 
-    }
+  
 
     // Update is called once per frame
     void Update()
