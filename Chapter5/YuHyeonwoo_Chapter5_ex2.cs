@@ -12,11 +12,11 @@ public class YuHyeonwoo_Chapter5_ex2 : MonoBehaviour
         
         if(userScore>= 50)
         {
-            Debug.Log("50 ÀÌ»óÀÇ ¼ö");
+            Debug.Log("50 ì´ìƒì˜ ìˆ˜");
         }
         else
         {
-            Debug.Log("50 ¹Ì¸¸ÀÇ ¼ö");
+            Debug.Log("50 ë¯¸ë§Œì˜ ìˆ˜");
         }
     }
 
