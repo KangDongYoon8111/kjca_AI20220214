@@ -13,31 +13,31 @@ public class Chapter5_Ex5 : MonoBehaviour
     {
        if (Low < 1)
         {
-            Debug.Log("°æ°í!");
+            Debug.Log("ê²½ê³ !");
         }
        else if (Low > 100)
         {
-            Debug.Log("°æ°í!");
+            Debug.Log("ê²½ê³ !");
         }
 
         else if (Low >= 60)
         {
-            Debug.Log("ÀúÇÐ³â ÇÕ°Ý");
+            Debug.Log("ì €í•™ë…„ í•©ê²©");
         }
 
         else if (Low < 60)
         {
-            Debug.Log("ÀúÇÐ³â ºÒÇÕ°Ý");
+            Debug.Log("ì €í•™ë…„ ë¶ˆí•©ê²©");
         }
 
         else if (Max >= 70)
         {
-            Debug.Log("°íÇÐ³â ÇÕ°Ý");
+            Debug.Log("ê³ í•™ë…„ í•©ê²©");
         }
 
         else if (Max < 70)
         {
-            Debug.Log("°íÇÐ³â ºÒÇÕ°Ý");
+            Debug.Log("ê³ í•™ë…„ ë¶ˆí•©ê²©");
         }
 
        
