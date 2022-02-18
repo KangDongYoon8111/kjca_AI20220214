@@ -10,13 +10,13 @@ public class YuHyeonwoo_Chapter5_ex3 : MonoBehaviour
         string userInput = "16";
         int userScore = int.Parse(userInput);
 
-        if(userScore%3 == 0)
+        if(userScore%3 == 0 && userScore != 0)
         {
-            Debug.Log("3ÀÇ ¹è¼ö ÀÔ´Ï´Ù");
+            Debug.Log("3ì˜ ë°°ìˆ˜ ì…ë‹ˆë‹¤");
         }
         else
         {
-            Debug.Log("3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù");
+            Debug.Log("3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤");
         }
 
     }
