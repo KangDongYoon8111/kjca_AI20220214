@@ -11,11 +11,11 @@ public class Chapter5_Ex2 : MonoBehaviour
 
         if (userScore >= 50)
         {
-            Debug.Log($"ÀÔ·ÂÇÏ½Å Á¡¼ö {userScore}Àº" + $" 50ÀÌ»óÀÇ ¼ö");
+            Debug.Log($"ì…ë ¥í•˜ì‹  ì ìˆ˜ {userScore}ì€" + $" 50ì´ìƒì˜ ìˆ˜");
         }
         else if (userScore < 50)
         {
-            Debug.Log($"ÀÔ·ÂÇÏ½Å Á¡¼ö {userScore}Àº" + $" 50¹Ì¸¸ÀÇ ¼ö");
+            Debug.Log($"ì…ë ¥í•˜ì‹  ì ìˆ˜ {userScore}ì€" + $" 50ë¯¸ë§Œì˜ ìˆ˜");
         }
 
        
