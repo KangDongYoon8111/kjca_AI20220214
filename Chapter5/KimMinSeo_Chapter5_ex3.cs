@@ -10,13 +10,17 @@ public class KimMinSeo_Chapter5_ex3 : MonoBehaviour
         string userInput = "16";
         int a = int.Parse(userInput);
 
-        if (a % 3 == 0)
+        if (a != 0 && a % 3 == 0)
         {
-            Debug.Log("3ÀÇ ¹è¼öÀÔ´Ï´Ù.");
+            Debug.Log("3ì˜ ë°°ìˆ˜ì…ë‹ˆë‹¤.");
+        }
+        else if (a == 0)
+        {
+            Debug.Log("0");
         }
         else
         {
-            Debug.Log("3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù.");
+            Debug.Log("3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤.");
         }
     }
 
