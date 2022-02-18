@@ -13,11 +13,11 @@ public class KimMinSeo_Chapter5_ex2 : MonoBehaviour
 
         if (a >= 50)
         {
-            Debug.Log("50ÀÌ»óÀÇ ¼ö");
+            Debug.Log("50ì´ìƒì˜ ìˆ˜");
         }
         else
         {
-            Debug.Log("50¹Ì¸¸ÀÇ ¼ö");
+            Debug.Log("50ë¯¸ë§Œì˜ ìˆ˜");
         }
     }
 
