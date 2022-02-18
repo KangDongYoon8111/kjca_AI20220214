@@ -16,7 +16,7 @@ public class Jeongsieun_chapter5_ex3 : MonoBehaviour
         }
         else
         {
-            Debug.Log("3의 배수가 아닙니다.")
+            Debug.Log("3의 배수가 아닙니다.");
         }
 
 
