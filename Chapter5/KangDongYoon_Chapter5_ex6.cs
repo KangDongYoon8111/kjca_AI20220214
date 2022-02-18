@@ -33,8 +33,7 @@ public class KangDongYoon_Chapter5_ex6 : MonoBehaviour
                 value = input1 % input2;
                 break;
         }
-        Debug.Log($"ÀÔ·ÂÇÏ½Å {input1}{userInput3}{input2} " +
-            $"ÀÇ °ªÀº {value} ÀÔ´Ï´Ù.");
+        Debug.Log($"ì…ë ¥í•˜ì‹  {input1}{userInput3}{input2} ì˜ ê°’ì€ {value} ì…ë‹ˆë‹¤.");
     }
 
     // Update is called once per frame
