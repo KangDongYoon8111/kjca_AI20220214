@@ -12,11 +12,11 @@ public class Chapter5_Ex3 : MonoBehaviour
 
         if (userScore %3 == 0 )
         {
-            Debug.Log($"3ÀÇ ¹è¼ö ÀÔ´Ï´Ù.");
+            Debug.Log($"3ì˜ ë°°ìˆ˜ ì…ë‹ˆë‹¤.");
         }
         else  
         {
-            Debug.Log($"3ÀÇ ¹è¼ö°¡ ¾Æ´Õ´Ï´Ù");
+            Debug.Log($"3ì˜ ë°°ìˆ˜ê°€ ì•„ë‹™ë‹ˆë‹¤");
         }
     }
 
