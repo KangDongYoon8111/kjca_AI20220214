@@ -7,16 +7,18 @@ public class leejunsuk_Chapter5 : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        string userInput = "21";
-        int userScore = int.Parse(userInput);
-        string score = "";
+        string userInput = "16";
+        int userSocer = int.Parse(userInput);
 
-        if (userScore % 3 == 0)
+        if (userSocer % 3 == 0)
         {
             Debug.Log("3의 배수입니다.");
+
         }
         else
+        {
             Debug.Log("3의 배수가 아닙니다.");
+        }
 
     }
 
