@@ -10,16 +10,15 @@ public class leejunsuk_Chapter5_ex2 : MonoBehaviour
         string userInput = "55";
         int num = int.Parse(userInput);
 
-        string result = (50 <= num) ? "50ÀÌ»ó" : "50¹Ì¸¸";
-        Debug.Log(result);
+       
 
         if (50 <= num)
         {
-            Debug.Log("50ÀÌ»óÀÔ´Ï´Ù.");
+            Debug.Log("50ì´ìƒì…ë‹ˆë‹¤.");
         }
         else
         {
-            Debug.Log("50¹Ì¸¸ÀÔ´Ï´Ù.");
+            Debug.Log("50ë¯¸ë§Œì…ë‹ˆë‹¤.");
         }
 
     }
